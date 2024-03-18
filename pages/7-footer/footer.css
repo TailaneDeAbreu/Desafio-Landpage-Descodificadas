@@ -1,0 +1,17 @@
+.footer{
+    width: 100vw;
+    height: 35vh;
+    background-color: var(--yellow);
+}
+
+.footer-fix h2{
+    margin: 0 5vw;
+}
+
+.autor{
+    margin-top: 5em;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: var(--font-museo);
+    color: var(--font-color);
+}

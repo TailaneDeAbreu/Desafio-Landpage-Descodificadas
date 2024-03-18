@@ -1,0 +1,62 @@
+.speackers{
+    background-color: var(--backgroud-color-main);
+    width: 100vw;
+    height: auto;
+    padding-bottom: 5vh;
+}
+
+.card{
+    font-family: var(--font-museo);
+    color: var(--font-color);
+}
+
+.speackers h1{
+    font-size: 3em;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-family: var(--font-museo);
+    color: var(--font-color);
+    text-transform: capitalize;
+}
+
+.speackers-cards ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5em 20vw;
+}
+
+.speackers-cards ul li { 
+    text-align: center;
+}
+
+.speackers-cards h2 {
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 0.8em;
+    text-transform: capitalize;
+}
+
+.speackers-cards p {
+    font-size: 1.2em;
+    width: 17em;
+    color: var(--colored);
+}
+
+.speackers-cards p::first-letter {
+    text-transform: capitalize;
+}
+
+.card a img{
+    max-height: 16vw;
+    border-radius: 7px;
+    box-shadow: 5px 5px 0 0 var(--soft-color);
+    transition: transform 0.3s ease;
+}
+
+.card a img:hover{
+    transform: scale(1.3);
+    transform-origin: top;
+    transition-delay: 0.2s;
+}

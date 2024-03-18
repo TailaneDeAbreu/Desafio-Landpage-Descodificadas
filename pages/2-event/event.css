@@ -1,0 +1,84 @@
+.event{
+    width: 100vw;
+}
+
+
+.event-title ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 18vh;
+}
+
+.event-title ul li{
+    padding: 1em 0;
+}
+
+.event-title h2, h3{
+    font-family: var(--font-museo);
+    color: var(--font-color);
+}
+
+.event-title h3{
+    font-size: 1.8em;
+    text-transform: capitalize;
+}
+
+.info-days::first-letter{
+    text-transform: capitalize;
+}
+
+.event-title h2{
+    font-size: 2.2em;
+    text-transform: capitalize;
+    margin-bottom: 0.3em;
+}
+
+
+.event-title h1{
+    font-size: 6vw;
+    color: var(--font-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: var(--font-nabla);
+    animation: floatUpDown 3s ease-in-out infinite;
+    margin-bottom: 0.2em;
+}
+
+@keyframes floatUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.btn-presence{
+    margin-top: 8em;
+    text-align: center; 
+}
+
+.btn-presence a{
+    padding: 0.5em 5em;
+    background-color: var(--soft-color);
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%); 
+    text-decoration: none;
+    color: var(--font-color);
+    text-transform: capitalize;
+    font-size: 1.5em;
+    border-radius: 4px;
+    font-family: var(--font-museo);
+    font-weight: bolder;
+    box-shadow: 5px 5px 0 0 var(--colored);
+}
+
+.btn-presence a:hover{
+    background-color: var(--colored);
+    box-shadow: 5px 5px 0 0 var(--soft-color);
+}

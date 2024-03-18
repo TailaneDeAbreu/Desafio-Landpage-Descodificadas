@@ -1,0 +1,36 @@
+.goal{
+    width: 100vw;
+    padding-bottom: 10vh;
+    background-color: var(--backgroud-color-secundary);
+}
+
+
+.goal-title h2{
+    font-size: 1.8em;
+    text-align: center;
+    padding: 3em 0;
+    margin: 0 25vw;
+    color: var(--font-color);
+    font-family: var(--font-museo);
+}
+
+.goal-img{
+    margin-top: 2em;
+    text-align: center;
+    animation: floatUpDown 3s ease-in-out infinite;
+}
+
+.goal-img img{
+    max-width: 55vw;
+    border-radius: 7px;
+    box-shadow: 5px 5px 0 0 var(--colored);
+}
+
+.goal-img figcaption{
+    font-size: 1.6em;
+    padding: 1em 0 0 0;
+    margin: 2em 32vw 0 32vw;
+    color: var(--font-color);
+    font-family: var(--font-museo);
+}
+

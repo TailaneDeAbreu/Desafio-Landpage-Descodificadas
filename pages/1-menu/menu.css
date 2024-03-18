@@ -1,0 +1,55 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+    justify-content: space-between;
+    width: 100vw;
+    position: relative;
+    z-index: 1;
+}
+
+.animate-background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.logo {
+    margin-left: 2em;
+}
+
+.logo img {
+    height: 1.5em;
+}
+
+.nav-bar ul {
+    font-size: 1.3em;
+    list-style-type: none;
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-right: 2em;
+}
+
+.nav-bar ul li {
+    margin-right: 1em;
+    display: inline; 
+}
+
+.nav-bar ul li a {
+    color: var(--font-color);
+    font-family: var(--font-museo);
+    text-decoration: none;
+}
+
+.nav-bar ul li a:active {
+    color: var(--soft-color);
+}
+
+.nav-bar ul li a:hover {
+    color: var(--colored);
+    border-bottom: solid #fb9e57 5px;
+    padding-bottom: 0.5em;
+}

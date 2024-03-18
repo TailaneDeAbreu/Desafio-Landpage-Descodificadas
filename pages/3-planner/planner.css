@@ -1,0 +1,69 @@
+.planner{
+    background-color: var(--backgroud-color-main);
+    width: 100vw;
+    padding-bottom: 10em;
+}
+
+.planner-title{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.days-preview ul li h3{
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 1.8em;
+}
+
+.planner-title h2{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 4em;
+    margin: 0 5vw 1vw 5vw;
+    font-family: var(--font-museo);
+    color: var(--font-color);
+}
+
+.planner-title h2::first-letter{
+    text-transform: capitalize;
+}
+
+.day-img{
+    width: 23vw;
+    box-shadow: 5px 5px 0 0 var(--soft-color);
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+.day-img:hover{
+    transform: scale(1.1);
+    transform-origin: top;
+    transition-delay: 0.2s;
+}
+
+.days-preview-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10vh 13vw 0 13vw;
+}
+
+.days-preview-wrapper p:first-child{
+    margin-bottom: 1.5em;
+}
+
+.description{
+    width: 23vw;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1.5em;
+    color: var(--colored);
+    font-family: var(--font-museo);
+}
+
+.description ul li::first-letter{
+    text-transform: capitalize;
+}
