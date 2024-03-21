@@ -17,5 +17,4 @@ Mapa de localização
 Formulário para coletar cadastro
 Rodapé com a frase criado por "seunome" - apenas para fins didáticos
 
-
-Poderá adicionar outros itens se desejar.
+#incompleto
